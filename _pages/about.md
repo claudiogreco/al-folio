@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description:
+description: <a href="https://www.cimec.unitn.it/en">Center for Mind/Brain Sciences</a>, <a href="https://www.unitn.it/en">University of Trento</a>.
 
 profile:
   align: right
