@@ -56,6 +56,15 @@
           </li>
           {% endif %}
           {% endfor %}
+          
+          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+          <a class="nav-link" href="https://scholar.google.com/citations?user=https://scholar.google.it/citations?hl=it&user=AX5jab0AAAAJ&view_op=list_works&sortby=pubdate">publications</a>
+          </li>
+          
+          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+          <a class="nav-link" href="{{ '/assets/documents/Claudio_Greco_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">curriculum vitae</a>
+          </li>
+          
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">
