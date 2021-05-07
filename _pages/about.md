@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.cimec.unitn.it/en">CIMeC</a>, <a href="https://www.unitn.it/en">University of Trento</a>, Italy.
+description: <a href="https://www.cimec.unitn.it/en">CIMeC</a>, <a href="https://www.unitn.it/en">University of Trento</a>.
 
 profile:
   align: right
