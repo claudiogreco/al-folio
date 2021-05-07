@@ -44,7 +44,7 @@ a, table.table a {
 
 .profile {
   margin-left: 1rem;
-  width: 100%;
+  width: 30%;
 
   .address {
     margin-bottom: 5px;
@@ -58,14 +58,6 @@ a, table.table a {
   }
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-    .address {
-      p { display: block; }
-    }
-  }
-}
 
 .post-description {
   margin-bottom: 2rem;
