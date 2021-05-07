@@ -12,6 +12,7 @@
   year={2020},
   abstract={This paper introduces BD2BB, a novel language and vision benchmark that requires multimodal models combine complementary information from the two modalities. Recently, impressive progress has been made to develop universal multimodal encoders suitable for virtually any language and vision tasks. However, current approaches often require them to combine redundant information provided by language and vision. Inspired by real-life communicative contexts, we propose a novel task where either modality is necessary but not sufficient to make a correct prediction. To do so, we first build a dataset of images and corresponding sentences provided by human participants. Second, we evaluate state-of-the-art models and compare their performance against human speakers. We show that, while the task is relatively easy for humans, best-performing models struggle to achieve similar results.},
   pdf={https://www.aclweb.org/anthology/2020.findings-emnlp.248.pdf},
+  code={https://github.com/sandropezzelle/bd2bb},
   selected={true}
 }
 
@@ -24,6 +25,7 @@
   year={2020},
   abstract={In this paper, we study the grounding skills required to answer spatial questions asked by humans while playing the GuessWhat?! game. We propose a classification for spatial questions dividing them into absolute, relational, and group questions. We build a new answerer model based on the LXMERT multimodal transformer and we compare a baseline with and without visual features of the scene. We are interested in studying how the attention mechanisms of LXMERT are used to answer spatial questions since they require putting attention on more than one region simultaneously and spotting the relation holding among them. We show that our proposed model outperforms the baseline by a large extent (9.70% on spatial questions and 6.27% overall). By analyzing LXMERT errors and its attention mechanisms, we find that our classification helps to gain a better understanding of the skills required to answer different spatial questions.},
   pdf={https://www.aclweb.org/anthology/2020.splu-1.4.pdf},
+  code={https://github.com/albertotestoni/unitn_unc_splu2020},
   selected={true}
 }
 
@@ -47,7 +49,9 @@
   pages     = {29--43},
   publisher = {CEUR-WS.org},
   year      = {2020},
+  abstract  = {We focus on visually grounded dialogue history encoding. We show that GuessWhat?! can be used as a “diagnostic” dataset to understand whether State-of-the-Art encoders manage to capture salient information in the dialogue history. We compare models across several dimensions: the architecture (Recurrent Neural Networks vs. Transformers), the input modalities (only language vs. language and vision), and the model background knowledge (trained from scratch vs. pre-trained and then fine-tuned on the downstream task). We show that pre-trained Transformers are able to identify the most salient information independently of the order in which the dialogue history is processed whereas LSTM based models do not.},
   pdf       = {http://ceur-ws.org/Vol-2735/paper31.pdf},
+  code={https://github.com/claudiogreco/aixia2021},
   timestamp = {Thu, 03 Dec 2020 16:09:56 +0100},
   biburl    = {https://dblp.org/rec/conf/aiia/0002TB19.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
